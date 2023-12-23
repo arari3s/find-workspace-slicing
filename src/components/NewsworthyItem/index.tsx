@@ -17,7 +17,7 @@ function NewsworthyItem({
     price,
     image,
     onPress,
-}): React.JSX.Element {
+}: NewsworthyItemProps): React.JSX.Element {
     return (
         <View style={styles.container}>
             <Image source={image} style={styles.imageBackground} />

@@ -9,7 +9,11 @@ interface InputTextProps {
     placeholder: string;
 }
 
-function InputText({ icon, label, placeholder }): React.JSX.Element {
+function InputText({
+    icon,
+    label,
+    placeholder,
+}: InputTextProps): React.JSX.Element {
     return (
         <>
             {label && <Text style={styles.label}>{label}</Text>}
